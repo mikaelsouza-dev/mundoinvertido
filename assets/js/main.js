@@ -13,7 +13,7 @@ btnSubscribe.addEventListener('click', async () => {
         level: txtLevel.value,
         character: txtCharacter.value
     }
-    // Save on DataBase!!!!!
+
     const subscriptionId = await subscribeToHellfireClub(subscription)
 
     txtName.value = ''
